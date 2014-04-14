@@ -1,0 +1,26 @@
+<head> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script> 
+<script src="skulpt.min.js" type="text/javascript"></script> 
+<script src="skulpt-stdlib.js" type="text/javascript"></script> 
+
+</head> 
+<div class="skulpt_block">
+<p>SkulptXBlock</p>
+
+<h3>Try This</h3> 
+<form> 
+<textarea id="yourcode" cols="40" rows="10">import turtle
+
+t = turtle.Turtle()
+t.forward(100)
+
+print "Hello World" 
+</textarea><br /> 
+<button type="button" onclick="runit()">Run</button>
+</form> 
+<pre id="output" ></pre> 
+<!-- If you want turtle graphics include a canvas -->
+<canvas id="mycanvas" ></mycanvas> 
+
+
+</div>

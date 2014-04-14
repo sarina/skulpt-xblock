@@ -1,0 +1,9 @@
+/* CSS for SkulptXBlock */
+
+.skulpt_block .count {
+    font-weight: bold;
+}
+
+.skulpt_block p {
+    cursor: pointer;
+}
